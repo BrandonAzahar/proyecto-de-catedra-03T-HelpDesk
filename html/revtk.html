@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Helpdesk</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="img/udb.ico" type="image/ico" />
+    <script src="lectura.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-primary">
+        <a class="navbar-brand"></a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Index.html">
+                        <h4>Inicio</h4>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+        <div class="container">
+            <!-- Contenido -->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            <h5>Revisar tickets activos</h5>
+                        </p>
+                        <p>
+                            Desde esta pagina de pueden revisar los tickets de soporte tecnico activos
+                        </p>
+
+                        <button class="btn-secondary" id="leer">Revisar tickets</button>
+                        <br>
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th> ID </th>
+                                    <th> Nombre </th>
+                                    <th> Email </th>
+                                    <th> Telefono </th>
+                                    <th> Area </th>
+                                    <th> Descripcion</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultado">
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- /contenido -->
+            <script src="./js/lectura.js"></script>
+
+    </main>
+
+    <footer class="container">
+        <hr>
+        <p class="text-muted text-center">Lenguajes interpretados en cliente<br> Universidad Don Bosco 2020 &copy; </p>
+    </footer>
+
+</html>

@@ -1,0 +1,10 @@
+[
+    {
+        "id": "1",
+        "Iname": "Jorge perez",
+        "Iemail": "noemail@mail.com",
+        "Iphone": "1465465986",
+        "Iarea": "Computadora",
+		"Idesc": "Esto es un ticket de prueba"
+    }
+]

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Helpdesk</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="img/udb.ico" type="image/ico" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-primary">
+        <a class="navbar-brand"></a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+
+
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">
+                        <h4>Inicio</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./conoc.html">
+                        <h4>Base de conocimiento</h4>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--Modal usuario-->
+
+    <!--Modal final-->
+
+
+
+
+    <main role="main">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <form class="form-group">
+                        <div class="text-center mb-4"><br><br>
+                            <h1 class="h3 mb-3 font-weight-normal">Solicitud de ayuda por ticket</h1>
+                            <p>Para poder brindarle ayuda con su problema por favor llene el siguiente formulario y un tecnico personalizado de pondra en contacto con usted</p>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="col-md-4">
+                    <form class="form-group" name="form">
+                        <div class="text-center mb-4">
+                            <br><br>
+                            <h4 class="h3 mb-3 font-weight-normal">Formulario de solicitud de ayuda</h4>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="User" id="Iname" class="form-control" placeholder="Usuario" required autofocus>
+                            <label for="inputEmail">Nombre completo</label>
+                        </div>
+
+                        <div class="form-label-group">
+                            <input type="User" id="Iemail" class="form-control" placeholder="Correo electronico" required>
+                            <label for="inputEmail">Correo electronico</label>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="User" id="Iphone" class="form-control" placeholder="Telefono" required>
+                            <label for="inputEmail">Numero de telefono</label>
+                        </div>
+
+                        <div class="form-label-group">
+                            <input id="Iarea" class="form-control" placeholder="Sistema operativo" required>
+                            <label for="inputPassword">Sistema operativo</label>
+                        </div>
+                        <div class="form-label-group">
+                            <input id="Idesc" class="form-control" placeholder=" " size="50" required>
+                            <label for="inputPassword">Escriba una descripcion del problema</label>
+                        </div>
+
+                        <div class="checkbox mb-3">
+                            <label>
+
+              </label>
+                        </div>
+
+
+
+
+                    </form>
+                    <button class="btn btn-lg btn-primary btn-block" id="registro">Lectura</button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script src="./js/ticket1.js"></script>
+        <!-- /Cierre de contenido -->
+
+    </main>
+
+    <footer class="container">
+        <hr>
+        <p class="text-muted text-center">Lenguajes interpretados en cliente<br> Universidad Don Bosco 2020 &copy; </p>
+    </footer>
+
+</html>
